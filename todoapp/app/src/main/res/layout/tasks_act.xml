@@ -21,6 +21,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".tasks.TasksActivity"
+    android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
     <LinearLayout
@@ -72,6 +73,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/drawer_actions" />
 
